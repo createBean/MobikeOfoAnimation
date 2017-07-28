@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/minions_btn_scan">
+
+        <ImageView
+            android:id="@+id/lefteye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/dimen62"
+            android:layout_marginTop="@dimen/dimen65"
+            android:src="@mipmap/nes"/>
+
+        <ImageView
+            android:id="@+id/righteye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/dimen42"
+            android:layout_marginTop="@dimen/dimen65"
+            android:src="@mipmap/nes"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/minions_btn_scan_see"/>
+    </FrameLayout>
+</RelativeLayout>
